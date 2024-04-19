@@ -1,3 +1,5 @@
+// Program to find factorial of any number using Recursion
+
 public class factRecursion{
     public int fact(int num){
         if(num==1){
