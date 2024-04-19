@@ -1,0 +1,16 @@
+// program to print numbers in reverse order using Recursion
+
+public class PrintReverse{
+  public void printN(int num){
+        System.out.print(num+" ");
+        if(num==1){return ;}
+        printN(num-1);
+
+    }
+  public static void main(String[] args){
+    PrintReverse pr = new PrintReverse();
+    pr.printN();
+  }
+}
+
+// Output :-  7 6 5 4 3 2 1
