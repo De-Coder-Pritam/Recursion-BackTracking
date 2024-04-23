@@ -1,0 +1,29 @@
+// Code to print Series of Numbers Using Recursion
+
+public void printSeries(int data){
+        if(data == 0){
+            return;
+        }else{
+            
+            printSeries(data-1);
+            System.out.println(data);
+            
+        }
+    }
+
+public static void main(String[] args){
+        RecursionPractice rp = new RecursionPractice();
+        rp.printSeries(10);
+    }
+
+Output :-
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
